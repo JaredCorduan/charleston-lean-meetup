@@ -1,0 +1,15 @@
+name = "aristotleexp"
+version = "0.1.0"
+defaultTargets = ["aristotleexp"]
+
+[[require]]
+name = "mathlib"
+scope = "leanprover-community"
+rev = "master"
+
+[[lean_lib]]
+name = "Aristotleexp"
+
+[[lean_exe]]
+name = "aristotleexp"
+root = "Main"
